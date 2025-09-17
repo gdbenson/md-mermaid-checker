@@ -30,10 +30,10 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 uv tool install md-mermaid-checker
 
 # Or install from GitHub directly
-uv tool install git+https://github.com/yourusername/md-mermaid-checker
+uv tool install git+https://github.com/gdbenson/md-mermaid-checker
 
 # Or for development (editable install)
-git clone https://github.com/yourusername/md-mermaid-checker
+git clone https://github.com/gdbenson/md-mermaid-checker
 cd md-mermaid-checker
 uv tool install -e .
 ```
@@ -45,10 +45,10 @@ uv tool install -e .
 pip install md-mermaid-checker
 
 # From GitHub
-pip install git+https://github.com/yourusername/md-mermaid-checker
+pip install git+https://github.com/gdbenson/md-mermaid-checker
 
 # For development
-git clone https://github.com/yourusername/md-mermaid-checker
+git clone https://github.com/gdbenson/md-mermaid-checker
 cd md-mermaid-checker
 pip install -e .
 ```
@@ -109,7 +109,7 @@ md-mermaid-checker -q "docs/**/*.md"
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/md-mermaid-checker
+git clone https://github.com/gdbenson/md-mermaid-checker
 cd md-mermaid-checker
 
 # Install in development mode with uv
